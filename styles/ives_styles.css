@@ -1,1 +1,72 @@
+body, header, #header {
+  margin: 0px;
+  background-color: #DEDBD5;
+}
+h1 {
+  color: #DEDBD5;
+  font-size: 40px;
+  font-style: Helvetica, Times, sans-serif;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 50px;
 
+}
+h2 {
+
+}
+p {
+
+}
+body {
+
+}
+#whole_page {
+  width: 700px;
+}
+#header {
+  background-color: #402901;
+  height: 225px;
+  border: solid 20px #3D2701;
+  margin: 0px auto 0px auto;
+}
+#alex_pic {
+  height: 200px;
+  width: 250px;
+  float: left;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  margin-left: 300px;
+  margin-right: 20px;
+}
+
+#intro {
+
+}
+#what_doin {
+
+}
+#games {
+
+}
+
+/* Links */
+
+ul {
+  display: block;
+}
+ul a:hover {
+  color: #2B0CF2;
+}
+#contact ul {
+  display: inline;
+  margin-left: 20px;
+  list-style-type: none;
+}
+#contact li {
+  padding: 5px;
+}
+/* how to not show my pic
+img {
+  display: none;
+}
+*/
