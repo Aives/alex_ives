@@ -3,11 +3,10 @@ body, header, #header {
   background-color: #DEDBD5;
 }
 h1 {
-  color: #DEDBD5;
+  color: black;
   font-size: 40px;
   font-style: Helvetica, Times, sans-serif;
   display: inline-block;
-  margin-left: 50px;
   margin-top: 50px;
 
 }
@@ -15,55 +14,69 @@ h2 {
 
 }
 p {
-
+  font-size: 20px;
 }
 body {
-
+  margin: 0px auto 100px auto;
+  padding: 10px 50px 5px 50px;
+}
+footer {
+  width: 50%;
+  margin: 5px auto 5px auto;
 }
 #whole_page {
-  width: 700px;
+  max-width: 700px;
+  display: inline;
 }
 #header {
-  background-color: #402901;
   height: 225px;
-  border: solid 20px #3D2701;
   margin: 0px auto 0px auto;
+  width: 50%;
 }
 #alex_pic {
   height: 200px;
-  width: 250px;
+  width: 225px;
   float: left;
   -ms-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
-  margin-left: 300px;
-  margin-right: 20px;
+  margin: 12px auto 0px auto;
 }
 
 #intro {
-
+  width: 50%;
+  margin: 5px auto 5px auto;
 }
 #what_doin {
-
+  width: 50%;
+  margin: 5px auto 5px auto;
 }
 #games {
-
+  margin: 5px auto 5px auto;
+  width: 50%;
 }
 
 /* Links */
-
+a {
+  color: black;
+}
 ul {
   display: block;
 }
-ul a:hover {
-  color: #2B0CF2;
-}
-#contact ul {
+#header ul {
   display: inline;
-  margin-left: 20px;
   list-style-type: none;
 }
-#contact li {
-  padding: 5px;
+#header li {
+  padding-top: 5px;
+}
+#header a {
+  padding: 10px;
+  color: black;
+  margin-left: ;
+}
+#header a:hover {
+  color: green;
+  text-decoration: none;
 }
 /* how to not show my pic
 img {
